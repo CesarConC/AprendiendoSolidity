@@ -1,0 +1,34 @@
+
+
+
+
+
+
+
+
+
+Instalar ganache-cli:
+    - Tenemos que tener node
+    - Tenemos que tener yarn
+    - Instalamos con npm install -g ganache 
+
+Para generar una blockchain escribimos: ganache-cli
+Cada vez que escribimos eso, nos genera una blockchain con diferentes wallets y contraseñas.
+Para que no pase eso, incluiomos la opción: ganache-cli --deterministic
+
+Hay que instalar brownie:
+    - Nueva carpeta para tenrlo más organizado
+    - python3 -m pip install --user pipx
+    - python3 -m pipx ensurepath 
+    - Cerrar VS
+    - pipx install eth-brownie
+    - Cerrar VS
+    - pipx install eth-brownie
+    - Cerrar VS
+    - En la carpeta nueva, que está vacía, hacer brownie init. Esto nos genera un monton de carpetas tipo npm start en React.
+    
+Brownie compila los contratos que escribimos en la carpeta de contracts el solito usando el comando brownie compile. Los guarda en la carpeta build, en contracts.
+
+Para ejecutar scripts, usamos brownie run scripts/el nombre del archivo.py
+
+LO DEJO EN EL MINUTO 4:35:00 ME TENGO QUE HACER CUENTA EN METAMASK
